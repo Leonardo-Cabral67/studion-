@@ -1,0 +1,36 @@
+/* Minhas classes de botão do css */
+
+.btn {
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  font-size: 0.975rem;
+  font-weight: 700;
+  border: 0.125rem solid #fff;
+  border-radius: 1.625rem;
+  color: var(--color-primary);
+  background: unset;
+  text-transform: uppercase;
+  transition: 0.5s all ease;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn--institutional,
+.btn--contact {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn--institutional:hover,
+.btn--contact:hover {
+  color: var(--color-copy);
+  background: unset;
+}
+
+.btn--quote {
+  color: var(--color-copy);
+  border-color: var(--color-copy);
+  background: unset;
+}
